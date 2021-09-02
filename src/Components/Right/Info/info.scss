@@ -1,0 +1,21 @@
+.Info {
+    &_title {
+        text-transform: uppercase;
+        font-weight: 900;
+    }
+    &_Share {
+        color: #5c5c6f;
+        border: .1rem solid;
+        border-radius: 20px;
+        text-transform: uppercase;
+        border-color: #f46258;
+
+        &:hover {
+            background-color: #fff;
+            color: #5c5c6f;
+            border-color: #5c5c6f;
+            -webkit-box-shadow: 5px -6px 43px -3px rgba(244,98,88,0.3); 
+            box-shadow: 5px -6px 43px -3px rgba(244,98,88,0.3);
+        }
+    }
+}

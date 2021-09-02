@@ -1,0 +1,21 @@
+.oval-fill {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #f46258;
+}
+.oval {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #f46258;
+    border-radius: 50%;
+}
+
+.language {
+    font-weight: 900;
+    text-transform: capitalize;
+
+    &_info {
+        font-size: 13px;
+    }
+}

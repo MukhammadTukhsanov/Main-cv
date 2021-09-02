@@ -1,0 +1,33 @@
+.TM_Left {
+    height: calc(100vh - 35px);
+    -webkit-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.20);
+    box-shadow: 0 3px 8px 0 rgba(15, 15, 20, .20);
+
+
+    &_Footer {
+        height: 66px;
+    }
+
+    &_Body {
+        overflow: auto;
+        height: calc(100% - 333px)
+    }
+    &_scrolbar{
+        background-color: #f4f4f6;
+
+        &_list-item {
+            font-size: 13px;
+            align-items: center;
+        }
+    }
+    &_links_frame_item{
+        color: #5c5c6f;
+        
+        &:hover{
+            text-decoration: none;
+            -webkit-transition: .4s ease-in-out;
+            transition: .4s ease-in-out;
+            color: #000;
+        }
+    }
+}

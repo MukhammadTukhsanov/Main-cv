@@ -1,0 +1,26 @@
+.TM_Left{
+    &_Header {
+        height: 267px
+    }
+
+    &_username a {
+        font-family: 'Poppins', sans-serif;
+        cursor: pointer;
+        color: #1e1e28ce;
+        font-weight: 700;
+
+        &:hover{
+            text-decoration: none;
+            -webkit-transition: .4s ease-in-out;
+            transition: .4s ease-in-out;
+            color: #fce4e3;
+        }
+    }
+
+    &_sm-text {
+        line-height: 1.8rem;
+        color: #5c5c6f;
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+    }
+}
