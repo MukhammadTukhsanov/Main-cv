@@ -10,9 +10,7 @@ const LineerProsentage = ({prosentage, language}) => {
     for(let i = 0; i < num; i++){
         ovals.push(<div key={`oval-fill${i.toString()}`} className="oval-fill mr-2"/>)
     }
-
-    console.log(ovals)
-
+    
     if(!(ovals.length===10)){
         for(let j = 0; j < (10-num); j++){
             ovals.push(<div key={`oval-${j}`} className="oval mr-2"/>)

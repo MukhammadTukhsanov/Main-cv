@@ -1,5 +1,6 @@
 import React from "react"
 import ClearMrg from "./clear-mrg/ClearMrg"
+import Galery from "./Galery/Galery"
 import IconList from "./IconList/IconList"
 import Info from "./Info/Info"
 import Languages from "./Languages/Languages"
@@ -61,6 +62,10 @@ export default function Right() {
                                 <h4 className="mt-2 per_info_title">icon list</h4>
                                 <IconList />
                             </div>
+                        </div>
+                        <hr />
+                        <div className="galery">
+                            <Galery />
                         </div>
                     </div>
                 </div>
